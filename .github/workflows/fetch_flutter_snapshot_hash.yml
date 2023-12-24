@@ -37,7 +37,7 @@ jobs:
             commit_message: Update Flutter hashes
             skip_fetch: true
             skip_checkout: true
-            file_pattern: flutter_hash/*
+            file_pattern: flutter_hash/**
       - name: Push changes
         uses: ad-m/github-push-action@v0.8.0
         with:
